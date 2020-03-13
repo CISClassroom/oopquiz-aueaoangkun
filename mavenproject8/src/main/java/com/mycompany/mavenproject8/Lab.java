@@ -218,7 +218,7 @@ cal cal = new cal();
         String jj = String.valueOf(name.getText());
         Result.setText (String.valueOf(cal.Lab(number1, number2 , number3 , number4 ,number5 ,result)));
         double ans = (number1 + number2 + number3 + number4 + number5)/result;
-        JOptionPane.showMessageDialog(null,(jj) + " \nรหัสนักศึกษา "+(ID) + "\nได้คะแนน" +(ans));
+        JOptionPane.showMessageDialog(null,(jj) + " \nรหัสนักศึกษา "+(ID) + "\nได้คะแนน " +(ans));
     }//GEN-LAST:event_LabActionPerformed
 
     private void CoffeeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CoffeeActionPerformed
